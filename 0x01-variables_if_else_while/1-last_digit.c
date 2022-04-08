@@ -3,23 +3,30 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main
  *
- * Description: Prints anumber and it's last digits along with whether its
- * last digit is 0, greater than 5, or less than 6 and not 0
- * Return: 0
+ * Return: Always (Success)
  */
 int main(void)
 {
-int n;
+	int n, lastd;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	lastd = n % 10;
 
-printf("Last digit of %d is %d %s\n", n, n % 10,
-((n % 10) == 0) ? "and is 0"
-: (((n % 10 > 5) ? "and is greater than 5"
-: "and less than 6 and not 0"));
+	if (lastd > 5)
+	{
+		printf("Last digit of %d is %d and is greater tha                       n 5\n", n, lastd);
+	}
+	else if (lastd == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, la                        std);
+	}
+	else if (lastd < 6 && lastd != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6                         and not 0\n", n, lastd);
+	}
 
-return (0);
+	return (0);
 }
