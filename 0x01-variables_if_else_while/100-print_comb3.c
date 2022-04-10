@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Description: Print all possible combination of different digits,in ascending order, separated by a comma follwed by space.
+ * Description: Print all possible combination of different digits,in ascending order, separated by a comma.
  * Return: 0
  */
 int main(void)
