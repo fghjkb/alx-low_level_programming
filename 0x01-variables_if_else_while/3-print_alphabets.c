@@ -1,11 +1,10 @@
-#include <stdlib.h>
-
+#include <stdio.h>
 /**
- * main - entry point
- *
- * description: print the lower and upper alphabet on the same line
- * Return: 0
- */
+* main - entry point
+*
+* Description: Print lower and upper alphabet on the same line
+* Return: 0
+*/
 int main(void)
 {
 int c;
@@ -18,4 +17,4 @@ putchar('A' + c);
 putchar('\n');
 
 return (0);
-}
+}       
