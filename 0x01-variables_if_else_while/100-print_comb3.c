@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- *
- * Description: Print all possible combination of different digits,in ascending order, separated by a comma.
+ * Description: Print all possible combination of different digits.
+ * In ascending order, separated by a comma and space
  * Return: 0
  */
 int main(void)
