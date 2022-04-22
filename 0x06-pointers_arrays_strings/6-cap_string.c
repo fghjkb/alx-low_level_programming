@@ -1,4 +1,4 @@
-#include "main.h
+#include "main.h"
 
 /**
 * cap_string- Capitalizes the words of a string
@@ -9,7 +9,7 @@ char *cap_string(char *s)
 {
 int x, y;
 int trigger;
-char nots[] = ", ; . ! ? { } { }\nt\" ";
+char nots[] = ", ; . ! ? () { }\nt\" ";
 
 for (x = 0, trigger = 0; s[x] != '\0'; x++)
 {
